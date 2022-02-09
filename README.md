@@ -28,13 +28,9 @@ The Editor Protocol is an open-source standard, and community contributions are 
 
 <!-- If you’re looking for inspiration regarding new specs to write, or contributions you could make, please check the [open issues](https://github.com/udecode/editor-protocol/issues?q=is%3Aissue+is%3Aopen). -->
 
-Find us on [Slack](https://slate-js.slack.com/messages/plate), we will take the time to guide you.
-
-## Contributors
-
 [Become a Sponsor!](https://github.com/sponsors/zbeyens)
 
-🌟 Stars and 📥 Pull requests are welcome! Read our contributing guide to get started, or 
+Find us on [Slack](https://slate-js.slack.com/messages/plate), we will take the time to guide you.
 
 ## License
 
