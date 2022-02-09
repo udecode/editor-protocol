@@ -16,6 +16,31 @@ _We’ll be publishing a public roadmap for the Editor Protocol soon._
 
 <!-- See the [open issues](https://github.com/udecode/editor-protocol/issues?q=is%3Aissue+is%3Aopen) for a list of some proposed features (and known issues). -->
 
+### Documentation-Driven Development
+
+The Editor Protocol follows Documentation-Driven Development principles.
+
+The philosophy behind Documentation-Driven Development is a simple: **from the perspective of a user, if a feature is not documented, then it doesn't exist, and if a feature is documented incorrectly, then it's broken.**
+
+- Document the feature *first*. Figure out how you're going to describe the feature to users; if it's not documented, it doesn't exist. Documentation is the best way to define a feature in a user's eyes.
+- Whenever possible, documentation should be reviewed by users (community) before any development begins.
+- Once documentation has been written, development should commence, and test-driven development is preferred.
+- Unit tests should be written that test the features as described by the documentation. If the functionality ever comes out of alignment with the documentation, tests should fail.
+- When a feature is being modified, it should be modified documentation-first.
+- When documentation is modified, so should be the tests.
+- Documentation and software should both be versioned, and versions should match, so someone working with old versions of software should be able to find the proper documentation.
+
+Order of operations for new features:
+- Editor Protocol:
+  - Documentation-driven development: open a PR documenting the new feature.
+  - Review then merge.
+  - _Semantic versioning – after beta_
+- Application:
+  - Test-driven development: open a PR testing the new feature aligned with the documentation.
+  - Develop the feature in that PR so that the unit tests pass.
+  - Review then merge.
+  - Release.
+
 ## Contributing
 
 The Editor Protocol is an open-source standard, and community contributions are what make open-source such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
