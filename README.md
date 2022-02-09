@@ -46,8 +46,8 @@ Steps to follow for new Docs and Specs:
   - Mention the issue where the new Doc or Spec should be linked to.
   - _Semantic versioning – after beta_
 - Application (Test-driven development):
-  - Open a PR testing the corresponding Editor Protocol Spec, mentioning the Spec issue.
-  - Develop the feature in that PR so that the unit tests pass.
+  - Open a PR testing the corresponding Editor Protocol Spec(s), mentioning the Spec issue(s).
+  - Develop the feature in that PR so that the unit test(s) pass.
   - Review then merge.
   - Release.
 
