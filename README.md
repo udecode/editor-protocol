@@ -4,9 +4,13 @@ The Editor Protocol is an open standard for building a rich text editor. Editors
 
 ## Getting Started
 
-You can find out the Protocol in the [docs folder](https://github.com/udecode/editor-protocol/tree/main/docs). Each Doc is composed of Specs, each Spec should be mappable to one Unit Test (_"when..., it should be..."_), not less, not more. Each Spec can start with a link to an issue to trace the discussion and development around it.
-
-The large Docs will get split into smaller and decoupled Docs over time.
+- The [Protocol](https://github.com/udecode/editor-protocol/issues/1), Docs and Specs format is using issues to leverage the activity log.
+- The Protocol is composed of Docs.
+- Each Doc is a list of Spec related to a subject (e.g. paragraph).
+- Each Spec should be mappable to one Unit Test (_"when..., it should be..."_), not less, not more.
+- Anyone can create Docs and Specs.
+- Maintainers will link the new Docs and Specs to the Protocol Docs.
+- If a Doc gets too big, it will be split into smaller Docs.
 
 ## Usage
 
@@ -32,30 +36,24 @@ The philosophy behind Documentation-Driven Development is a simple: **from the p
 - When documentation is modified, so should be the tests.
 - Documentation and software should both be versioned, and versions should match, so someone working with old versions of software should be able to find the proper documentation.
 
-Steps to follow for new Specs:
-- Editor Protocol (Documentation-driven development):
-  - Open an issue documenting the new Spec (optional, you can directly open a PR).
-  - Open a PR documenting the new Spec into [/docs](https://github.com/udecode/editor-protocol/tree/main/docs), starting with the issue or PR #.
-  - Include the issue or PR number at the start of the Spec.
-  - Review then merge.
-  - _Semantic versioning – after beta_
-- Application (Test-driven development):
-  - Open a PR testing the corresponding Editor Protocol feature, mentioning the Spec number.
-  - Develop the feature in that PR so that the unit tests pass.
-  - Review then merge.
-  - Release.
-
 ## Contributing
 
 The Editor Protocol is an open-source standard, and community contributions are what make open-source such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
+Steps to follow for new Docs and Specs:
+- Editor Protocol (Documentation-driven development):
+  - Open an issue documenting the new Doc or Spec.
+  - Mention the issue where the new Doc or Spec should be linked to.
+  - _Semantic versioning – after beta_
+- Application (Test-driven development):
+  - Open a PR testing the corresponding Editor Protocol Spec, mentioning the Spec issue.
+  - Develop the feature in that PR so that the unit tests pass.
+  - Review then merge.
+  - Release.
+
 🌟 Please consider **starring** the project and watching it on GitHub, to be kept abreast of future developments and show your appreciation.
 
-📥 If you’ve got an idea for a new spec, would like to make a suggestion that improves the protocol itself, or want to contribute to a better developer experience for users of the protocol, please open an issue, and feel free to fork the repo in order to create a pull request.
-
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feat/AmazingFeature`)
-3.  Follow the above Documentation-Driven Development steps.
+📥 If you’ve got an idea for a new Spec, would like to make a suggestion that improves the protocol itself, or want to contribute to a better developer experience for users of the protocol, please comment the existing issues or open a new issue.
 
 <!-- If you’re looking for inspiration regarding new specs to write, or contributions you could make, please check the [open issues](https://github.com/udecode/editor-protocol/issues?q=is%3Aissue+is%3Aopen). -->
 
