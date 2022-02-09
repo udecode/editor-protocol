@@ -4,7 +4,9 @@ The Editor Protocol is an open standard for building a rich text editor. Editors
 
 ## Getting Started
 
-You can find out the protocol in the [docs folder](https://github.com/udecode/editor-protocol/tree/main/docs), the large specs get split into smaller specs over time. 
+You can find out the protocol in the [docs folder](https://github.com/udecode/editor-protocol/tree/main/docs), the large specs get split into smaller specs over time.
+
+Each spec can start with a link to an issue to trace the discussion and development around it.
 
 ## Usage
 
@@ -31,12 +33,13 @@ The philosophy behind Documentation-Driven Development is a simple: **from the p
 - Documentation and software should both be versioned, and versions should match, so someone working with old versions of software should be able to find the proper documentation.
 
 Order of operations for new features:
-- Editor Protocol:
-  - Documentation-driven development: open a PR documenting the new feature.
+- Editor Protocol (Documentation-driven development):
+  - Open an issue or PR documenting the new feature into [/docs](https://github.com/udecode/editor-protocol/tree/main/docs)
+  - Include the issue or PR number at the start of the spec.
   - Review then merge.
   - _Semantic versioning – after beta_
-- Application:
-  - Test-driven development: open a PR testing the new feature aligned with the documentation.
+- Application (Test-driven development):
+  - Open a PR testing the corresponding Editor Protocol feature, mentioning the issue # number.
   - Develop the feature in that PR so that the unit tests pass.
   - Review then merge.
   - Release.
@@ -51,9 +54,7 @@ The Editor Protocol is an open-source standard, and community contributions are 
 
 1.  Fork the Project
 2.  Create your Feature Branch (`git checkout -b feat/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feat/AmazingFeature`)
-5.  Open a Pull Request
+3.  Follow the above Documentation-Driven Development steps.
 
 <!-- If you’re looking for inspiration regarding new specs to write, or contributions you could make, please check the [open issues](https://github.com/udecode/editor-protocol/issues?q=is%3Aissue+is%3Aopen). -->
 
