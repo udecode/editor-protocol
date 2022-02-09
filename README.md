@@ -2,6 +2,10 @@
 
 The Editor Protocol is an open standard for building a rich text editor. Editors developed in accordance with the protocol allow you to make applications readable by humans and machines. The protocol structure features alternatives to cover all use-cases as there is no clear definition of what the standard should be. The choice is yours.
 
+## Getting Started
+
+You can find out the protocol in the [docs folder](https://github.com/udecode/editor-protocol/tree/main/docs), the large specs get split into smaller specs over time. 
+
 ## Usage
 
 [Plate](https://github.com/udecode/plate) is an example framework that will follow the Editor Protocol.
