@@ -4,7 +4,7 @@ The Editor Protocol is an open standard for building a rich text editor. Editors
 
 ## Getting Started
 
-You can find out the Protocol in the [docs folder](https://github.com/udecode/editor-protocol/tree/main/docs). Each Doc is composed of Specs, one Spec should be mappable to one Unit Test (_"when..., it should be..."_), not less, not more. Each Spec can start with a link to an issue to trace the discussion and development around it.
+You can find out the Protocol in the [docs folder](https://github.com/udecode/editor-protocol/tree/main/docs). Each Doc is composed of Specs, each Spec should be mappable to one Unit Test (_"when..., it should be..."_), not less, not more. Each Spec can start with a link to an issue to trace the discussion and development around it.
 
 The large docs will get split into smaller and decoupled docs over time.
 
