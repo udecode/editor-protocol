@@ -1,15 +1,11 @@
 ---
 name: Spec template
-about: Given an input, when an action occurs, then...
+about: When several conditions occur, there is an expected behavior
 title: ''
 labels: spec
 assignees: ''
 
 ---
-
-### Given
-
-- 
 
 ### When
 
