@@ -1,6 +1,6 @@
 # Editor Protocol
 
-The Editor Protocol is an open standard for building a rich text editor. Rich-text is any kind of textual content that can have media, semantic or formatting features embedded. Editors developed in accordance with the protocol allow you to develop applications following the state of the art. The protocol aims to cover all use-cases as there is no clear definition of what the standard should be. The choice is yours.
+The Editor Protocol is an open standard for building a rich text editor. Editors developed in accordance with the protocol allow you to develop applications following the state of the art. The protocol aims to cover all use-cases as there is no clear definition of what the standard should be. The choice is yours.
 
 - UI/UX
 - Data structure
