@@ -5,7 +5,7 @@ The Editor Protocol is an open standard for building a rich text editor. Editors
 - UI/UX
 - Data structure
 - Editor operations
-- Collaborative support
+- Collaboration
 - Technical architecture
 - Comparison between many existing editors
 - ...
