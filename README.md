@@ -24,8 +24,6 @@ The Editor Protocol is an open standard for building a rich text editor. Editors
 
 [Plate](https://github.com/udecode/plate) is an example framework that will follow the Editor Protocol.
 
-We hope to see many 
-
 ## Roadmap
 
 _We’ll be publishing a public roadmap for the Editor Protocol soon._
