@@ -1,11 +1,19 @@
 ---
 name: Spec template
-about: When several conditions occur, there is an expected behavior
+about: Given an input, when an action occurs, then expect an output
 title: ''
 labels: spec
 assignees: ''
 
 ---
+
+### Given
+
+-
+
+```tsx
+
+```
 
 ### When
 
@@ -14,3 +22,7 @@ assignees: ''
 ### Then
 
 -
+
+```tsx
+
+```
