@@ -16,7 +16,7 @@ The Editor Protocol is an open standard for building a rich text editor. Editors
 - The Protocol is composed of Docs.
 - Each Doc is a list of Spec related to a subject (e.g. paragraph).
 - Each Spec should be mappable to one Unit Test (_"when..., it should be..."_), not less, not more.
-- Anyone can create Docs and Specs.
+- Anyone can create Docs and Specs by opening an issue.
 - Maintainers will link the new Docs and Specs to the Protocol Docs.
 - If a Doc gets too big, it will be split into smaller Docs.
 
