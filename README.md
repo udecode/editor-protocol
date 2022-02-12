@@ -26,7 +26,7 @@ The Editor Protocol is an open standard for building a rich text editor. Editors
 
 ## Roadmap
 
-_We’ll be publishing a public roadmap for the Editor Protocol soon._
+_We’ll be publishing a public roadmap for the Editor Protocol soon_
 
 <!-- See the [open issues](https://github.com/udecode/editor-protocol/issues?q=is%3Aissue+is%3Aopen) for a list of some proposed features (and known issues). -->
 
